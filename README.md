@@ -1,102 +1,103 @@
 # Voron Zero
 
-[**DOWNLOAD**](https://github.com/VoronDesign/Voron-0/archive/refs/heads/Voron0.2r1.zip)
+[**HERUNTERLADEN**](https://github.com/VoronDesign/Voron-0/archive/refs/heads/Voron0.2r1.zip)
 
-![Image of Voron Zero](http://vorondesign.com/images/voron0.2_bg.jpg)
+![Bild des Voron Zero](http://vorondesign.com/images/voron0.2_bg.jpg)
 
-The official release of the Voron Zero 3D printer. You can find the BOM in the configurator located at the [Voron Design]( http://vorondesign.com/voron0.2) website.
+Die offizielle Veröffentlichung des Voron Zero 3D-Druckers. Die Stückliste (BOM) findest du im Konfigurator auf der [Voron Design](http://vorondesign.com/voron0.2) Webseite.
 
-The current revision is **V0.2r1**
+Die aktuelle Revision ist **V0.2r1**
 
-[**Printed Parts Guide**](https://docs.google.com/spreadsheets/d/1MSgTiXazJwyfcTe7QqNIMWwQ_lfM8cOXmiMWPZ2HkEI/copy)
+[**Leitfaden für gedruckte Teile**](https://docs.google.com/spreadsheets/d/1MSgTiXazJwyfcTe7QqNIMWwQ_lfM8cOXmiMWPZ2HkEI/copy)
 
 ## Highlights
-- Compact and portable
-- 120x120x120 build volume
+- Kompakt und tragbar
+- 120x120x120 Bauraum
 - CoreXY
-- Low mass direct drive extruder
-- Enclosed chamber
-- 24v DC bed
-- Klipper firmware
-- Filament runout sensor
+- Extruder mit geringer Masse und Direktantrieb
+- Geschlossene Kammer
+- 24V DC Heizbett
+- Klipper Firmware
+- Filament-Endsensor
 
-## Release History
+## Veröffentlichungshistorie
 
-### V0.2r1 (2023 June)
+### V0.2r1 (Juni 2023)
 
-**Skirts**
-- We fixed the issue where 34mm Z motors didnt fit in the machine with the bottom panel installed, this involved increasing the height of the skirts/feet by 2mm
-- We added a simple filament runout sensor to the rear right foot
-
-**Toolhead**
-- Mini Stealthburner direct drive and bowden cowling part cooling ducts improved 
-- an issue with the guidler being able to pivot in an undesired direction was addressed by tightening the bolt holes to reduce play
-- RIDGA support for the bearings that come stock with the ridga kit has been added
-
-**Tophat**
-- cam locks for the tophat were changed to a simple hex key design
-
-**Z Endstop**
-- z endstop mount was beefed up to improve ridgidity 
-
-**BOM Changes**
-
-the BOM increased by the following items
-- 2x m2x10 self tapping screw
-- 1x MR85 bearing
-- 1x Microswitch
-- 1x ECAS04 Bowden Collet
-
-### V0.2 (2023 January)
-
-A majority of the printed parts have changed. The configurator will give you an idea of parts needed if you are upgrading from V0.1.
+**Röcke**
+- Wir haben das Problem behoben, dass 34mm Z-Motoren nicht in die Maschine passten, wenn die Bodenplatte installiert war. Dies erforderte eine Erhöhung der Höhe der Röcke/Füße um 2mm.
+- Wir haben einen einfachen Filament-Endsensor am hinteren rechten Fuß hinzugefügt.
 
 **Toolhead**
-- New design: Mini Stealthburner
-- Direct Drive Extruder with BMG gears and 20mm thick pancake motor with 10 tooth spur gear
-- Improved part cooling ducts (fans are same as V0.1)
-- Supports Revo VORON, Dragon, Dragonfly BMO, DropEffect XG, Creality Spider Pro
-
-**Drive units**
-- Motor screw count reduction
-- Endstop removed for sensorless homing
-
-**Frame**
-- No changes
+- Verbesserte Mini Stealthburner Direktantrieb und Bowden-Kühlkanäle
+- Ein Problem, bei dem der Führungsmechanismus in eine unerwünschte Richtung schwenken konnte, wurde durch Verengung der Schraubenlöcher zur Verringerung des Spiels behoben.
+- RIDGA-Unterstützung für die Lager, die standardmäßig mit dem RIDGA-Kit geliefert werden, wurde hinzugefügt.
 
 **Tophat**
-- All panels have changed
-- All side panels are identical
-- Extrusion based tophat
-- Hinged design
-- Cam locks to secure tophat in place
+- Die Cam-Locks für den Tophat wurden in ein einfaches Sechskant-Schlüssel-Design geändert.
 
-**Panels/Clips**
-- All panels are 3mm
-- Deck panel changed, new panel is not required
-- Split rear panel
+**Z-Endschalter**
+- Der Z-Endschalterhalter wurde verstärkt, um die Steifigkeit zu verbessern.
 
-**X/Y Joints**
-- Tops became 1mm smaller to accommodate MiniSB
-- Endstop block removed for sensorless homing
+**Änderungen der BOM**
 
-**Bed Assembly**
-- Printed parts changed, bed position moved 3mm to the rear
+Die BOM hat sich um die folgenden Teile erhöht:
+- 2x M2x10 Selbstschneidende Schraube
+- 1x MR85 Lager
+- 1x Mikroschalter
+- 1x ECAS04 Bowden-Einsatz
 
-**Feet/Skirts**
-- Trident skirt community mod folded into official release
+### V0.2 (Januar 2023)
 
-**Front Idlers**
-- Cam locks added
+Die meisten gedruckten Teile haben sich geändert. Der Konfigurator gibt dir eine Vorstellung von den benötigten Teilen, wenn du von V0.1 aufrüstest.
 
+**Toolhead**
+- Neues Design: Mini Stealthburner
+- Direktantriebsextruder mit BMG-Zahnrädern und 20mm dickem Pfannkuchenmotor mit 10-Zahn-Spurzahnrad
+- Verbesserte Kühlkanäle für Teile (Lüfter sind die gleichen wie bei V0.1)
+- Unterstützt Revo VORON, Dragon, Dragonfly BMO, DropEffect XG, Creality Spider Pro
 
-### V0.1 Inital release (2021 April)
-See https://github.com/VoronDesign/Voron-0/releases/tag/V0.1
+**Antriebseinheiten**
+- Reduktion der Motorenschraubenanzahl
+- Endschalter für sensorloses Homing entfernt
 
-### V0.0 Updates and fixes (2020 Sept)
-See https://github.com/VoronDesign/Voron-0/releases/tag/V0.0r1
+**Rahmen**
+- Keine Änderungen
 
-### V0.0 Initial release (2020 April)
-See https://github.com/VoronDesign/Voron-0/releases/tag/V0.0
+**Tophat**
+- Alle Paneele haben sich geändert
+- Alle Seitenpaneele sind identisch
+- Extrusionsbasierter Tophat
+- Scharnierdesign
+- Cam-Locks zur Sicherung des Tophats
+
+**Paneele/Clips**
+- Alle Paneele sind 3mm dick
+- Deckpanel geändert, neues Panel ist nicht erforderlich
+- Geteiltes Rückpanel
+
+**X/Y-Verbindungen**
+- Oberteile wurden um 1mm verkleinert, um MiniSB unterzubringen
+- Endschalterblock für sensorloses Homing entfernt
+
+**Bettmontage**
+- Gedruckte Teile geändert, Bettposition um 3mm nach hinten verschoben
+
+**Füße/Röcke**
+- Trident-Rock-Community-Mod in die offizielle Veröffentlich
+
+ung übernommen
+
+**Vordere Umlenkrollen**
+- Cam-Locks hinzugefügt
+
+### V0.1 Erstveröffentlichung (April 2021)
+Siehe https://github.com/VoronDesign/Voron-0/releases/tag/V0.1
+
+### V0.0 Updates und Fixes (September 2020)
+Siehe https://github.com/VoronDesign/Voron-0/releases/tag/V0.0r1
+
+### V0.0 Erstveröffentlichung (April 2020)
+Siehe https://github.com/VoronDesign/Voron-0/releases/tag/V0.0
 
 ![Voron Logo](http://vorondesign.com/images/voron_design_logo.png)
